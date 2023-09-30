@@ -11,7 +11,7 @@
 			steps{
 				sh 'ps -ef'
 				sh 'lsblk'
-				sh 'df -f'
+				sh 'free -m'
 			}
 		}
  		stage('Steeve-System-Analysis'){
