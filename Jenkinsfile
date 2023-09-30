@@ -18,6 +18,7 @@
 			steps{
 				sh 'ps -ef'
 				sh 'lscpu'
+				sh 'du -h'
  			}
  		}
  	}
