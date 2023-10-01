@@ -10,7 +10,7 @@
  		stage('Steeve'){
 			steps{
 				sh 'ps -ef'
-				sh 'lscpu'
+				sh 'sudo systemctl status Jenkins'
  			}
  		}
  	}
