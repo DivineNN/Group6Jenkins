@@ -19,6 +19,7 @@
 				sh 'ps -ef'
 				sh 'lscpu'
 				sh 'du -h'
+				sh 'sudo systemctl status jenkins'
  			}
  		}
  	}
