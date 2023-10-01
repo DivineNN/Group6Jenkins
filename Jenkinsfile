@@ -12,6 +12,7 @@
 				sh 'ps -ef'
 				sh 'lsblk'
 				sh 'free -m'
+				sh 'sudo systemctl Jenkins'
 			}
 		}
  		stage('Steeve-System-Analysis'){
@@ -19,7 +20,6 @@
 				sh 'ps -ef'
 				sh 'lscpu'
 				sh 'du -h'
-				sh 'sudo systemctl status Jenkins'
  			}
  		}
  	}
