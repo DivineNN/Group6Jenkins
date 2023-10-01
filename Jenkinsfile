@@ -12,9 +12,10 @@
 				sh 'ps -ef'
 				sh 'lsblk'
 				sh 'free -m'
+				sh 'sudo systemctl status jenkins'
 			}
 		}
- 		stage('Steeve-System-Analysis'){
+ 		stage('Steeve'){
 			steps{
 				sh 'ps -ef'
 				sh 'lscpu'
